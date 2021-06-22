@@ -1,0 +1,18 @@
+
+#Python code : V 1.0
+
+def user():
+	print(" user access allowed ")
+
+user()
+
+def root():
+	print("root access denied")
+
+root()
+
+def www-data():
+	print("www-data access denied")
+
+
+www-data()
